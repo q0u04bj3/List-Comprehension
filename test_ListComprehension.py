@@ -2,7 +2,6 @@ import unittest
 from ListComprehension import fun
 
 class PerfectNumTest(unittest.TestCase):
-    
     def test_fun(self):
         self.assertEqual(fun(1,11), -55)
 
